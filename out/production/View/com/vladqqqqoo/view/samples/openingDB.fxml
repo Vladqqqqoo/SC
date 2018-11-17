@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="217.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vladqqqqoo.view.controllers.OpeningDBC">
+   <children>
+      <Button layoutX="146.0" layoutY="139.0" mnemonicParsing="false" onAction="#openDBOA" text="Open" />
+      <TextField fx:id="dbNameTI" layoutX="94.0" layoutY="96.0" promptText="input your db name" />
+   </children>
+</AnchorPane>
